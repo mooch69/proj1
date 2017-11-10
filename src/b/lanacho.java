@@ -1,5 +1,5 @@
 package b;
-
+//hello this is GH
 import java.io.*;
 import java.util.Scanner;
 import java.text.DecimalFormat;
@@ -67,7 +67,7 @@ class Knight
 			System.out.println();
 		}			
 	}  
-
+	
 	private boolean getMove()
 	// computes the next available knight's move.  Alters RowPos and ColPos and
 	// returns true if move is possible, otherwise returns false
@@ -86,7 +86,8 @@ class Knight
 	public void hityuh()
 	// primary method that drives the knight's tour solution
 	{
-		System.out.println("hang yourself with a rubber fidjent spinner");
+		getMove();
+		 
 	}
-
+			
 }
